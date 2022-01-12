@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 61919170566903102}
   - component: {fileID: 114961902889299820}
   - component: {fileID: 4800270084607097532}
+  - component: {fileID: 3041811664089955601}
   m_Layer: 8
   m_Name: Inimigo
   m_TagString: Untagged
@@ -148,9 +149,9 @@ MonoBehaviour:
   aoBater:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114961902889299820}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 3041811664089955601}
+        m_TargetAssemblyTypeName: Pontuavel, Assembly-CSharp
+        m_MethodName: Pontuar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -174,3 +175,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alvo: {fileID: 0}
   forca: 5
+--- !u!114 &3041811664089955601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134229065056836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef90ccf7aa21a4b40b0e1ebb2fbfc4c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
