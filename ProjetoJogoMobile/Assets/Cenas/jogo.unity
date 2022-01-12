@@ -271,6 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b519f48fe722b84ba48fc724ec8d27e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alvo: {fileID: 139149043}
   prefabInimigo: {fileID: 1134229065056836, guid: 83f2d8f359aa4004f9a935c6a860ce11,
     type: 3}
   tempo: 1
@@ -777,6 +778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b519f48fe722b84ba48fc724ec8d27e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alvo: {fileID: 139149043}
   prefabInimigo: {fileID: 1134229065056836, guid: 83f2d8f359aa4004f9a935c6a860ce11,
     type: 3}
   tempo: 1
@@ -1449,6 +1451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b519f48fe722b84ba48fc724ec8d27e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alvo: {fileID: 139149043}
   prefabInimigo: {fileID: 1134229065056836, guid: 83f2d8f359aa4004f9a935c6a860ce11,
     type: 3}
   tempo: 1

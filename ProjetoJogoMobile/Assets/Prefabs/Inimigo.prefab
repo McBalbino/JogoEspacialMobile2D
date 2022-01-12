@@ -148,9 +148,9 @@ MonoBehaviour:
   aoBater:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 114961902889299820}
         m_TargetAssemblyTypeName: 
-        m_MethodName: Pontuar
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -173,3 +173,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alvo: {fileID: 0}
+  velocidade: 5
