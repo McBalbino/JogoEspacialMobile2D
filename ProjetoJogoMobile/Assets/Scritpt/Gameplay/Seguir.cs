@@ -7,15 +7,22 @@ public class Seguir : MonoBehaviour
     [SerializeField]
     private Transform alvo;
     [SerializeField]
-    private float velocidade;
+    private float forca;
+    private Rigidbody2D fisica;
+
+    private void Awake() 
+    {
+        this.fisica = this.GetComponent<Rigidbody2D>();
+    }
 
     // Update is called once per frame
-    void Update()
+    private void FixedUpdate()
     {
         var deslocamento = alvo.position - transform.position;
         deslocamento = deslocamento.normalized;
-        deslocamento *= this.velocidade;
-        this.transform.position += deslocamento * Time.deltaTime;
+        deslocamento *= this.forca;
+
+        this.fisica.AddForce(deslocamento, ForceMode2D.Force);
     }
 
     public void SetAlvo(Transform novoAlvo) 
