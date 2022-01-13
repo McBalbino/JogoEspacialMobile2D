@@ -1075,6 +1075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoPontuacao: {fileID: 82167984}
+  ranking: {fileID: 1339298328}
 --- !u!114 &1016959375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1113,6 +1114,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016959371}
   m_CullTransparentMesh: 1
+--- !u!1 &1339298327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1339298329}
+  - component: {fileID: 1339298328}
+  m_Layer: 0
+  m_Name: Ranking
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1339298328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339298327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b13f743d1f64df43a231c68e1642a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pontos: 
+--- !u!4 &1339298329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339298327}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 137.56897, y: 325.63065, z: -78.16469}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1699952959
 GameObject:
   m_ObjectHideFlags: 0
