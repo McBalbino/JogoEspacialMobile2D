@@ -8,29 +8,45 @@ public class ControleDePause : MonoBehaviour
     private GameObject painelPause;
     [SerializeField, Range(0, 1)]
     private float escalaDeTempoDuranteOPause;
+    private bool jogoEstaParado;
 
     // Update is called once per frame
     void Update()
     {
         if(this.EstaoTocandoNaTela())
         {
-            this.ContinuarJogo();
+            if(this.jogoEstaParado) 
+            {
+                this.ContinuarJogo();
+            }
         } else
         {
-            this.PararJogo();
+            if(!this.jogoEstaParado)
+            {
+                this.PararJogo();
+            }
         }
     }
 
     private void ContinuarJogo()
     {
+        StartCoroutine(this.EsperarEContinuarOJogo());
+    }
+
+    private IEnumerator EsperarEContinuarOJogo() 
+    {
+        yield return new WaitForSecondsRealtime(0.2f);
+
         this.painelPause.SetActive(false);
         this.MudarEscalaDeTempo(1);
+        this.jogoEstaParado = false;
     }
 
     private void PararJogo()
     {
         this.painelPause.SetActive(true);
         this.MudarEscalaDeTempo(this.escalaDeTempoDuranteOPause);
+        this.jogoEstaParado = true;
     }
 
     private bool EstaoTocandoNaTela()
