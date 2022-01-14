@@ -13,15 +13,15 @@ public class PainelRanking : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        var quantidade = this.ranking.Quantidade();
-        for(var i = 0; i < quantidade; i++)
+        var listaDePontos = this.ranking.GetPontos();
+        for(var i = 0; i < listaDePontos.Count; i++)
         {
             if(i >= 5)
             {
                 break;
             }
             var colocado = GameObject.Instantiate(this.prefabColocado, this.transform);
-            colocado.GetComponent<ItemRanking>().Configurar(i, "balbino", 999);
+            colocado.GetComponent<ItemRanking>().Configurar(i, "balbino", listaDePontos[i]);
         }
     }
 
