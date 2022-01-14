@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PainelRanking : MonoBehaviour
 {
@@ -15,7 +16,12 @@ public class PainelRanking : MonoBehaviour
         var quantidade = this.ranking.Quantidade();
         for(var i = 0; i < quantidade; i++)
         {
-            GameObject.Instantiate(this.prefabColocado, this.transform);
+            if(i >= 5)
+            {
+                break;
+            }
+            var colocado = GameObject.Instantiate(this.prefabColocado, this.transform);
+            colocado.GetComponent<ItemRanking>().Configurar(i, "balbino", 999);
         }
     }
 

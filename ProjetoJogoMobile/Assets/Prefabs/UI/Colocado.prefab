@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6805820391268232135}
   - component: {fileID: 6910641507312283885}
   - component: {fileID: 8238165942876060889}
+  - component: {fileID: 595654300718337745}
   m_Layer: 5
   m_Name: Colocado
   m_TagString: Untagged
@@ -78,6 +79,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &595654300718337745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697954598216708765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bed7f124a004724c883b82e12a4b0ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textoColocacao: {fileID: 5845572381925285109}
+  textoNome: {fileID: 8084051908844369088}
+  textoPontuacao: {fileID: 2395799347787281319}
 --- !u!1 &6084888698181513644
 GameObject:
   m_ObjectHideFlags: 0
