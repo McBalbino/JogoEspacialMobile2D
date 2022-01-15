@@ -10,7 +10,7 @@
 Abaixo estão listadas todas as versões disponíveis do jogo
 
 - <h4>Jogar versão 1.0 para Android</h4>
->acesse o site e baixe o apk: 
+>acesse o site e baixe o apk: https://mcbalbino.itch.io/jogo-espacial-mobile
 
 ---
 ## :computer: Tecnologias Utilizadas
