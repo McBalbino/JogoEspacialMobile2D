@@ -9,8 +9,8 @@
 ## :video_game: Releases - Como jogar no browser
 Abaixo estão listadas todas as versões disponíveis do jogo
 
-- <h4>Jogar versão 1.0</h4>
->acesse: https://mcbalbino.itch.io/desafio-nas-alturas-v10
+- <h4>Jogar versão 1.0 para Android</h4>
+>acesse o site e baixe o apk: https://mcbalbino.itch.io/desafio-nas-alturas-v10
 
 ---
 ## :computer: Tecnologias Utilizadas
